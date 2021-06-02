@@ -942,7 +942,7 @@
   dependencies:
     cssnano "^4.0.0"
     cssnano-preset-default "^4.0.0"
-    postcss "^8.10.0"
+    postcss "^8.2.10"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
