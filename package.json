@@ -1,5 +1,5 @@
 {
-  "name": "demiray-dev",
+  "name": "demiray.dev",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,18 +8,20 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "autoprefixer": "^10.2.6",
     "core-js": "^3.6.5",
     "postcss": "^8.3.0",
-    "vue": "^2.6.11"
+    "tailwindcss": "^2.1.4",
+    "vue": "^3.0.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
+    "@vue/cli-plugin-babel": "^5.0.0-alpha.5",
+    "@vue/cli-plugin-eslint": "^5.0.0-alpha.5",
+    "@vue/cli-service": "^5.0.0-alpha.5",
+    "@vue/compiler-sfc": "^5.0.0-alpha.5",
     "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.11"
+    "eslint": "^7.0.0",
+    "eslint-plugin-vue": "^7.0.0"
   },
   "eslintConfig": {
     "root": true,
@@ -27,13 +29,18 @@
       "node": true
     },
     "extends": [
-      "plugin:vue/essential",
+      "plugin:vue/vue3-essential",
       "eslint:recommended"
     ],
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "no-console": "off",
+      "no-unused-vars": "off",
+      "no-use-before-define": "off",
+      "import/prefer-default-export": "off"
+    }
   },
   "browserslist": [
     "> 1%",
