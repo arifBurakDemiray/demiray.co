@@ -1,8 +1,9 @@
 /* ./src/index.css */
+/* purgecss start ignore */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/* purgecss end ignore */
 :root {
   --demiray-background: #062020;
   --demiray-color-one: #3fc091;
