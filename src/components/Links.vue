@@ -8,7 +8,7 @@
         data-icon="github"
         class="w-6 h-6 ml-auto"
         role="img"
-        :xmlns="xmlns"
+        xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 496 512"
         fill="#2ad5d4"
       >
@@ -22,7 +22,7 @@
         data-icon="linkedin-in"
         class="w-6 h-6 ml-auto"
         role="img"
-        :xmlns="xmlns"
+        xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 448 512"
         fill="#2ad5d4"
       >
@@ -40,8 +40,7 @@ export default {
       githubData: Icons.githubData,
       linkedinData: Icons.linkedinData,
       linkGithub: "https://github.com/arifBurakDemiray",
-      linkLinkedin: "http://www.linkedin.com/in/arifBurakDemiray",
-      xmlns: "http://www.w3.org/2000/svg"
+      linkLinkedin: "http://www.linkedin.com/in/arifBurakDemiray"
     };
   },
   props: {
