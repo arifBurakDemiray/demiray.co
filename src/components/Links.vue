@@ -6,7 +6,7 @@
         focusable="false"
         data-prefix="fab"
         data-icon="github"
-        :class="iconClass"
+        class="w-6 h-6 ml-auto"
         role="img"
         :xmlns="xmlns"
         viewBox="0 0 496 512"
@@ -20,7 +20,7 @@
         focusable="false"
         data-prefix="fab"
         data-icon="linkedin-in"
-        :class="iconClass"
+        class="w-6 h-6 ml-auto"
         role="img"
         :xmlns="xmlns"
         viewBox="0 0 448 512"
@@ -41,8 +41,7 @@ export default {
       linkedinData: Icons.linkedinData,
       linkGithub: "https://github.com/arifBurakDemiray",
       linkLinkedin: "http://www.linkedin.com/in/arifBurakDemiray",
-      xmlns: "http://www.w3.org/2000/svg",
-      iconClass: "w-6 h-6 ml-auto"
+      xmlns: "http://www.w3.org/2000/svg"
     };
   },
   props: {
