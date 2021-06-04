@@ -14,7 +14,7 @@
 <script>
 import Construction from "./components/Construction.vue";
 import Links from "./components/Links.vue";
-
+import "./index.css";
 export default {
   name: "App",
   components: {
