@@ -5,9 +5,9 @@
 
 :root {
   --demiray-background: #062020;
-  --demiray-color-one: #2ad5d4;
-  --demiray-color-two: #2ad57e;
-  --demiray-color-three: #2ad5d4;
+  --demiray-color-one: #3fc091;
+  --demiray-color-two: #3fafc0;
+  --demiray-color-three: #3fc050;
 }
 
 select {
@@ -53,5 +53,8 @@ select:-moz-focusring {
   }
   .color-d-t {
     color: var(--demiray-color-three);
+  }
+  .color-link-fill {
+    fill: var(--demiray-color-three);
   }
 }

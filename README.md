@@ -1,5 +1,7 @@
 # demiray.dev
 
+This project written in Vue.js and used TailwindCSS
+
 demiray.dev source codes
 
 ## Project setup
