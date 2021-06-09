@@ -1,14 +1,14 @@
 /* ./src/index.css */
-/* purgecss start ignore */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* purgecss end ignore */
+
 :root {
   --demiray-background: #062020;
   --demiray-color-one: #3fc091;
   --demiray-color-two: #3fafc0;
   --demiray-color-three: #3fc050;
+  --demiray-color-four: #51f567;
 }
 
 select {
@@ -46,6 +46,9 @@ select:-moz-focusring {
   .bg-demiray {
     background-color: var(--demiray-background);
   }
+  .bg-two {
+    background-color: var(--demiray-color-two);
+  }
   .color-d-f {
     color: var(--demiray-color-one);
   }
@@ -57,5 +60,11 @@ select:-moz-focusring {
   }
   .color-link-fill {
     fill: var(--demiray-color-three);
+  }
+  .hover-color {
+    color: var(--demiray-color-four);
+  }
+  .trans {
+    background: rgba(0, 0, 0, 0.5);
   }
 }
