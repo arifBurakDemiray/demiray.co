@@ -28,13 +28,13 @@
       >
         <path :d="linkedinData"></path></svg
     ></a>
-    <span @click="togglePopup" :class="className">
+    <span @click="togglePopup" :class="className" class="hover:cursor-pointer">
       <svg
         aria-hidden="true"
         focusable="false"
         data-prefix="fab"
         data-icon="mail"
-        class="w-6 h-6 ml-auto hover:cursor-pointer"
+        class="w-6 h-6 ml-auto"
         role="img"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
@@ -43,15 +43,13 @@
         <path :d="mailData" /></svg
     ></span>
   </div>
-  <div v-if="isOpen">
-    <Popup :handleClick="togglePopup" />
-  </div>
+
+  <Popup v-if="isOpen" :handleClick="togglePopup" />
 </template>
 
 <script>
 import Icons from "../assets/Icons.vue";
 import Popup from "./Popup.vue";
-
 export default {
   name: "Links",
   data: function() {

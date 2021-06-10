@@ -9,6 +9,7 @@
   --demiray-color-two: #3fafc0;
   --demiray-color-three: #3fc050;
   --demiray-color-four: #51f567;
+  --demiray-color-five: #288a99;
 }
 
 select {
@@ -49,6 +50,9 @@ select:-moz-focusring {
   .bg-two {
     background-color: var(--demiray-color-two);
   }
+  .color-bg {
+    color: var(--demiray-background);
+  }
   .color-d-f {
     color: var(--demiray-color-one);
   }
@@ -64,7 +68,13 @@ select:-moz-focusring {
   .hover-color {
     color: var(--demiray-color-four);
   }
+  .hover-bg {
+    background: var(--demiray-color-five);
+  }
   .trans {
     background: rgba(0, 0, 0, 0.5);
+  }
+  .border-color {
+    border-color: var(--demiray-color-two);
   }
 }

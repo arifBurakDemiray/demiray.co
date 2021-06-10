@@ -2,12 +2,10 @@
   <div
     className="grid grid-cols-1 fixed bg-black trans z-10 inset-0 justify-center items-center place-items-center"
   >
-    <div
-      className="border-4 border-solid border-black p-20 w-2/6 h-3/4 rounded-2xl bg-demiray relative margin-auto overflow-auto"
-    >
+    <div className=" p-20 w-3/6 h-3/4 rounded-2xl bg-demiray relative margin-auto overflow-auto">
       <button
         type="button"
-        className="top-2 right-2 absolute bg-demiray w-10 h-10 text-center color-d-f"
+        className="top-2 right-2 absolute bg-demiray w-6 h-6 text-center color-d-f flex-col focus:outline-none hover:hover-color"
         @click="handleClick"
       >
         <svg
@@ -25,6 +23,36 @@
           />
         </svg>
       </button>
+      <div className="grid grid-cols-1 gap-2">
+        <input
+          value=""
+          className="px-2
+        h-7 rounded-xl bg-demiray placeholder-current color-d-f border border-color outline-none focus:outline-none"
+          placeholder="Name Surname"
+        />
+        <input
+          value=""
+          className="px-2
+        h-7 rounded-xl bg-demiray placeholder-current color-d-f border border-color outline-none focus:outline-none"
+          placeholder="Email"
+        />
+        <textarea
+          rows="6"
+          value=""
+          className="px-2
+   rounded-xl bg-demiray color-d-f placeholder-current border border-color outline-none focus:outline-none resize-none"
+          placeholder="Message"
+        ></textarea>
+        <div class="h-10 m-auto">
+          <button
+            @click="handleClick"
+            type="submit"
+            className="focus:outline-none hover:hover-bg bg-two flex-col w-36 rounded-3xl justify-center items-center leading-10 color-bg"
+          >
+            Send
+          </button>
+        </div>
+      </div>
     </div>
   </div>
 </template>
