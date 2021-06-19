@@ -24,5 +24,5 @@ export default {
     Links
   }
 };
-//TODO work on vue, work a litte
+//TODO work on vue, work a litte, try
 </script>
