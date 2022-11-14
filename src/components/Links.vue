@@ -1,6 +1,6 @@
 <template>
   <div class="Links" :className="divClassName">
-    <a :href="linkGithub" :class="className"
+    <a :href="linkGithub" :class="className" target="_blank"
       ><svg
         aria-hidden="true"
         focusable="false"
@@ -14,7 +14,7 @@
       >
         <path :d="githubData"></path></svg
     ></a>
-    <a :href="linkLinkedin" :class="className"
+    <a :href="linkLinkedin" :class="className" target="_blank"
       ><svg
         aria-hidden="true"
         focusable="false"
@@ -28,7 +28,7 @@
       >
         <path :d="linkedinData"></path></svg
     ></a>
-    <a :href="linkMail" :class="className"
+    <a :href="linkMail" :class="className" target="_blank"
       ><svg
         aria-hidden="true"
         focusable="false"
@@ -42,7 +42,7 @@
       >
         <path :d="mailData"></path></svg
     ></a>
-    <a :href="linkStackOverflow" :class="className"
+    <a :href="linkStackOverflow" :class="className" target="_blank"
       ><svg
         aria-hidden="true"
         focusable="false"
@@ -56,7 +56,7 @@
       >
         <path :d="stackOverflowData"></path></svg
     ></a>
-    <a :href="linkMedium" :class="className"
+    <a :href="linkMedium" :class="className" target="_blank"
       ><svg
         aria-hidden="true"
         focusable="false"
