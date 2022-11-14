@@ -9,7 +9,7 @@
       msg="Website Under Construction"
     />
     <footer className="absolute color-d-f self-end pb-4">
-      Copyright © Arif Burak DEMIRAY 2021
+      Copyright © Arif Burak DEMIRAY 2022
     </footer>
   </div>
 </template>

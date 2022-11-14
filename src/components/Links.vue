@@ -28,7 +28,49 @@
       >
         <path :d="linkedinData"></path></svg
     ></a>
-    <span @click="togglePopup" :class="className" class="hover:cursor-pointer">
+    <a :href="linkMail" :class="className"
+      ><svg
+        aria-hidden="true"
+        focusable="false"
+        data-prefix="fab"
+        data-icon="mail"
+        class="w-6 h-6 ml-auto"
+        role="img"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+      >
+        <path :d="mailData"></path></svg
+    ></a>
+    <a :href="linkStackOverflow" :class="className"
+      ><svg
+        aria-hidden="true"
+        focusable="false"
+        data-prefix="fab"
+        data-icon="stack-overflow"
+        class="w-6 h-6 ml-auto"
+        role="img"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+      >
+        <path :d="stackOverflowData"></path></svg
+    ></a>
+    <a :href="linkMedium" :class="className"
+      ><svg
+        aria-hidden="true"
+        focusable="false"
+        data-prefix="fab"
+        data-icon="medium"
+        class="w-6 h-6 ml-auto"
+        role="img"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 50 50"
+        fill="currentColor"
+      >
+        <path :d="mediumData"></path></svg
+    ></a>
+<!--     <span @click="togglePopup" :class="className" class="hover:cursor-pointer">
       <svg
         aria-hidden="true"
         focusable="false"
@@ -41,7 +83,7 @@
         fill="currentColor"
       >
         <path :d="mailData" /></svg
-    ></span>
+    ></span> -->
   </div>
 
   <Popup v-if="isOpen" :handleClick="togglePopup" />
@@ -58,8 +100,13 @@ export default {
       githubData: Icons.githubData,
       linkedinData: Icons.linkedinData,
       mailData: Icons.mailData,
+      stackOverflowData: Icons.stackOverflowData,
+      mediumData: Icons.mediumData,
       linkGithub: "https://github.com/arifBurakDemiray",
-      linkLinkedin: "http://www.linkedin.com/in/arifBurakDemiray"
+      linkLinkedin: "http://www.linkedin.com/in/arifBurakDemiray",
+      linkMail: "mailto:burakdemiray09@hotmail.com",
+      linkMedium: "https://arifburakdemiray.medium.com/",
+      linkStackOverflow: "https://stackoverflow.com/users/16263216/euxinos"
     };
   },
   methods: {
