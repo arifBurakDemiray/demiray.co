@@ -11,7 +11,7 @@
       I am located in Izmir, Turkey.<br/>I am a fast learner when it comes to a new tech or a topic. And, I can understand and solve the problem<br/>
       in a zeus way. I am currently working as a Lead Developer.
       </span>
-      
+      <img className="mx-auto pt-10" src="../assets/me.png">
     </div>
     <footer className="absolute color-d-f self-end pb-4">
       Copyright © Arif Burak DEMIRAY 2022
@@ -29,3 +29,4 @@ export default {
 };
 //TODO work on vue, work a litte, try
 </script>
+
