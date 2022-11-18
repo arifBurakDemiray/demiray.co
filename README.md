@@ -1,8 +1,8 @@
-# demiray.dev
+# demiray.co
 
 This project written in Vue.js and used TailwindCSS
 
-demiray.dev source codes
+demiray.co source codes
 
 ## Project setup
 
