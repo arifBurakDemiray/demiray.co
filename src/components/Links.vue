@@ -70,7 +70,8 @@
       >
         <path :d="mediumData"></path></svg
     ></a>
-    <a :href="linkInstagram" :class="className" target="_blank"
+    <a :href="linkInstagram
+    " :class="className" target="_blank"
       ><svg
         aria-hidden="true"
         focusable="false"
@@ -83,6 +84,21 @@
         fill="currentColor"
       >
         <path :d="instagramData"></path></svg
+    ></a>
+    <a :href="linkReddit
+    " :class="className" target="_blank"
+      ><svg
+        aria-hidden="true"
+        focusable="false"
+        data-prefix="fab"
+        data-icon="reddit"
+        class="w-6 h-6 ml-auto"
+        role="img"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+      >
+        <path :d="redditData"></path></svg
     ></a>
 <!--     <span @click="togglePopup" :class="className" class="hover:cursor-pointer">
       <svg
@@ -116,13 +132,15 @@ export default {
       mailData: Icons.mailData,
       stackOverflowData: Icons.stackOverflowData,
       mediumData: Icons.mediumData,
+      redditData: Icons.redditData,
       instagramData: Icons.instagramData,
       linkGithub: "https://github.com/arifBurakDemiray",
       linkLinkedin: "http://www.linkedin.com/in/arifBurakDemiray",
       linkInstagram: "https://www.instagram.com/demirayarifburak",
       linkMail: "mailto:burakdemiray09@hotmail.com",
       linkMedium: "https://arifburakdemiray.medium.com/",
-      linkStackOverflow: "https://stackoverflow.com/users/16263216/euxinos"
+      linkStackOverflow: "https://stackoverflow.com/users/16263216/euxinos",
+      linkReddit: "https://www.reddit.com/user/arbude"
     };
   },
   methods: {
