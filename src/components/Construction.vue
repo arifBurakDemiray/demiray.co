@@ -1,23 +1,27 @@
+
 <template>
-  <div class="Construction" :className="className">
+  <div
+    class="Construction"
+    :className="className"
+  >
     <h1>{{ msg }}</h1>
     <div class="fingerprint-spinner overflow-hidden p-2 w-32 h-32">
-      <div class="spinner-ring"></div>
-      <div class="spinner-ring"></div>
-      <div class="spinner-ring"></div>
-      <div class="spinner-ring"></div>
-      <div class="spinner-ring"></div>
-      <div class="spinner-ring"></div>
-      <div class="spinner-ring"></div>
-      <div class="spinner-ring"></div>
-      <div class="spinner-ring"></div>
+      <div class="spinner-ring" />
+      <div class="spinner-ring" />
+      <div class="spinner-ring" />
+      <div class="spinner-ring" />
+      <div class="spinner-ring" />
+      <div class="spinner-ring" />
+      <div class="spinner-ring" />
+      <div class="spinner-ring" />
+      <div class="spinner-ring" />
     </div>
   </div>
 </template>
 <!-- @click -->
 <script>
 export default {
-  name: "Construction",
+  name: 'ConstructionPage',
   props: {
     msg: String,
     className: String

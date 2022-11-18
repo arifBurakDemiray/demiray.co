@@ -29,25 +29,25 @@
           className="px-2
         h-7 rounded-xl bg-demiray placeholder-current color-d-f border border-color outline-none focus:outline-none"
           placeholder="Name Surname"
-        />
+        >
         <input
           value=""
           className="px-2
         h-7 rounded-xl bg-demiray placeholder-current color-d-f border border-color outline-none focus:outline-none"
           placeholder="Email"
-        />
+        >
         <textarea
           rows="6"
           value=""
           className="px-2
    rounded-xl bg-demiray color-d-f placeholder-current border border-color outline-none focus:outline-none resize-none"
           placeholder="Message"
-        ></textarea>
+        />
         <div class="h-10 m-auto">
           <button
-            @click="handleClick"
             type="submit"
             className="focus:outline-none hover:hover-bg bg-two flex-col w-36 rounded-3xl justify-center items-center leading-10 color-bg"
+            @click="handleClick"
           >
             Send
           </button>
@@ -59,7 +59,7 @@
 
 <script>
 export default {
-  name: "Popup",
+  name: 'PopupComponent',
   props: {
     handleClick: Function
   }
