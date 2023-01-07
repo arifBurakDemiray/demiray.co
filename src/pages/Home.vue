@@ -17,7 +17,7 @@
           div-class-name="w-30 h-8 flex flex-row right-4 m-4 justify-center"
           class-name="focus:outline-none color-d-f hover:hover-color p-2"
         />
-        <div>© 2022 Copyright: Arif Burak DEMIRAY </div>
+        <div>© 2023 Copyright: Arif Burak DEMIRAY </div>
       </footer>
     </div>
   </div>
