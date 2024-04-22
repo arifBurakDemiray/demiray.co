@@ -9,11 +9,10 @@
       
       <div class="typingEffect__line2">
         <span className="text-1xl">I am a Software Engineer who is obsessed with '<span className="font-bold italic">Single Responsibility</span>'.
-        I am located in Izmir, Turkey.
         </span>
       </div>
       <div class="typingEffect__line3">I am a fast learner when it comes to a new tech or a topic. And, I can understand and solve the problem</div>
-      <div class="typingEffect__line4">in a zeus way. I am currently working as a Lead Developer.</div>
+      <div class="typingEffect__line4">in a zeus way. I am currently working as an SDK Engineer.</div>
 
       <img
         className="mx-auto pt-10"
