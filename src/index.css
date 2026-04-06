@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body {
+  background-color: #062020;
+}
+
 :root {
   --demiray-background: #062020;
   --demiray-color-one: #3fc091;
