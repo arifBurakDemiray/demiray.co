@@ -8,22 +8,22 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "autoprefixer": "^10.2.6",
+    "autoprefixer": "^10.4.27",
     "core-js": "^3.6.5",
-    "postcss": "^8.3.0",
-    "postcss-loader": "^5.3.0",
-    "tailwindcss": "^2.1.4",
-    "vue": "^3.0.0",
+    "postcss": "^8.5.8",
+    "postcss-loader": "^8.2.1",
+    "tailwindcss": "^3.4.19",
+    "vue": "^3.5.32",
     "vue-router": "^4.6.4"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^5.0.0-alpha.5",
-    "@vue/cli-plugin-eslint": "^5.0.0-alpha.5",
-    "@vue/cli-service": "^5.0.0-alpha.5",
-    "@vue/compiler-sfc": "^3.0.11",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.0.0",
-    "eslint-plugin-vue": "^7.0.0"
+    "@babel/eslint-parser": "^7.28.6",
+    "@vue/cli-plugin-babel": "^5.0.9",
+    "@vue/cli-plugin-eslint": "^5.0.9",
+    "@vue/cli-service": "^5.0.9",
+    "@vue/compiler-sfc": "^3.5.32",
+    "eslint": "^8.57.1",
+    "eslint-plugin-vue": "^9.33.0"
   },
   "eslintConfig": {
     "root": true,
@@ -35,13 +35,15 @@
       "eslint:recommended"
     ],
     "parserOptions": {
-      "parser": "babel-eslint"
+      "parser": "@babel/eslint-parser",
+      "requireConfigFile": false
     },
     "rules": {
       "no-console": "off",
       "no-unused-vars": "off",
       "no-use-before-define": "off",
-      "import/prefer-default-export": "off"
+      "import/prefer-default-export": "off",
+      "vue/multi-word-component-names": "off"
     }
   },
   "browserslist": [

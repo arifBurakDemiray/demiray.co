@@ -47,7 +47,7 @@ select:-moz-focusring {
   text-shadow: 0 0 0 #000;
 }
 
-@variants hover, focus {
+@layer utilities {
   .bg-demiray {
     background-color: var(--demiray-background);
   }
