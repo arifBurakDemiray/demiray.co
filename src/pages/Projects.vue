@@ -18,7 +18,7 @@
           <a
             v-if="project.url"
             :href="project.url"
-            target="_blank"
+            :target="project.url.startsWith('/') ? null : '_blank'"
             class="text-xs color-d-s hover:hover-color transition-colors flex-shrink-0 ml-3"
           >View &rarr;</a>
         </div>
@@ -81,6 +81,12 @@ export default {
   data() {
     return {
       featured: [
+        {
+          title: 'Ashglyph',
+          description: 'An isometric souls-like boss rush drawn entirely in glowing ASCII glyphs. Custom WebGL2 glyph renderer, procedural Web Audio score per chamber, wrapped for Android with Capacitor.',
+          tech: ['TypeScript', 'WebGL2', 'Web Audio', 'Capacitor', 'Android'],
+          url: '/ashglyph'
+        },
         {
           title: 'Countly SDKs (Open Source)',
           description: 'Maintaining and developing analytics SDKs used by companies like BMW and major banks. Took ownership of the Android SDK, one of the most widely used products at Countly.',
