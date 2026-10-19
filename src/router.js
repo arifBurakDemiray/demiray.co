@@ -7,6 +7,7 @@ import Strava from './pages/Strava.vue';
 import Contact from './pages/Contact.vue';
 import Ashglyph from './pages/Ashglyph.vue';
 import AshglyphPrivacy from './pages/AshglyphPrivacy.vue';
+import Euxinos from './pages/Euxinos.vue';
 
 const routes = [
   { path: '/', name: 'Home', component: Home },
@@ -16,7 +17,8 @@ const routes = [
   { path: '/sports', name: 'Sports', component: Strava },
   { path: '/contact', name: 'Contact', component: Contact },
   { path: '/ashglyph', name: 'Ashglyph', component: Ashglyph, meta: { title: 'Ashglyph' } },
-  { path: '/ashglyph/privacy', name: 'AshglyphPrivacy', component: AshglyphPrivacy, meta: { title: 'Ashglyph Privacy Policy' } }
+  { path: '/ashglyph/privacy', name: 'AshglyphPrivacy', component: AshglyphPrivacy, meta: { title: 'Ashglyph Privacy Policy' } },
+  { path: '/euxinos', name: 'Euxinos', component: Euxinos, meta: { title: 'euxinos' } }
 ];
 
 const router = createRouter({

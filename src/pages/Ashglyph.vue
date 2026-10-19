@@ -7,6 +7,7 @@
         <div>
           <h1 class="text-3xl md:text-4xl font-bold ember">Ashglyph</h1>
           <p class="text-sm opacity-70">Seven circles. Seven sins. One ember knight.</p>
+          <router-link to="/euxinos" class="text-xs opacity-60 hover:opacity-100 transition-opacity">a game by euxinos</router-link>
         </div>
       </div>
       <p class="text-sm opacity-90 leading-relaxed mb-6">
