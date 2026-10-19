@@ -88,6 +88,12 @@ export default {
           url: '/ashglyph'
         },
         {
+          title: 'Glyphloop',
+          description: 'An endless loop puzzle drawn in glowing ASCII glyphs, designed analytics- and monetization-first: a typed event contract, seeded levels that are the same for every player, and remote-config knobs for live tuning.',
+          tech: ['TypeScript', 'Canvas', 'Web Audio', 'Capacitor', 'Android'],
+          url: '/glyphloop'
+        },
+        {
           title: 'Countly SDKs (Open Source)',
           description: 'Maintaining and developing analytics SDKs used by companies like BMW and major banks. Took ownership of the Android SDK, one of the most widely used products at Countly.',
           tech: ['Android', 'Java', 'iOS', 'JavaScript', '.NET', 'Flutter', 'React Native', 'Unity'],

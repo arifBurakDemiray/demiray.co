@@ -8,6 +8,8 @@ import Contact from './pages/Contact.vue';
 import Ashglyph from './pages/Ashglyph.vue';
 import AshglyphPrivacy from './pages/AshglyphPrivacy.vue';
 import Euxinos from './pages/Euxinos.vue';
+import Glyphloop from './pages/Glyphloop.vue';
+import GlyphloopPrivacy from './pages/GlyphloopPrivacy.vue';
 
 const routes = [
   { path: '/', name: 'Home', component: Home },
@@ -18,6 +20,8 @@ const routes = [
   { path: '/contact', name: 'Contact', component: Contact },
   { path: '/ashglyph', name: 'Ashglyph', component: Ashglyph, meta: { title: 'Ashglyph' } },
   { path: '/ashglyph/privacy', name: 'AshglyphPrivacy', component: AshglyphPrivacy, meta: { title: 'Ashglyph Privacy Policy' } },
+  { path: '/glyphloop', name: 'Glyphloop', component: Glyphloop, meta: { title: 'Glyphloop' } },
+  { path: '/glyphloop/privacy', name: 'GlyphloopPrivacy', component: GlyphloopPrivacy, meta: { title: 'Glyphloop Privacy Policy' } },
   { path: '/euxinos', name: 'Euxinos', component: Euxinos, meta: { title: 'euxinos' } }
 ];
 

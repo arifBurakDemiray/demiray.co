@@ -57,6 +57,13 @@ export default {
           icon: '/ashglyph-assets/icon.png',
           summary: 'A souls-like boss rush drawn entirely in glyphs.',
           status: 'Android, coming soon to Google Play'
+        },
+        {
+          title: 'Glyphloop',
+          path: '/glyphloop',
+          icon: '/glyphloop-assets/icon.png',
+          summary: 'An endless loop puzzle drawn in glowing ASCII glyphs.',
+          status: 'Android, coming soon to Google Play'
         }
       ]
     };
